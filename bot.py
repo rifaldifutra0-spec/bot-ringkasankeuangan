@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
-from telegram import Update
+from telegram.ext import ApplicationBuilder
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 TOKEN = os.getenv("TOKEN")
